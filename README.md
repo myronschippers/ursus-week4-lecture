@@ -1,18 +1,14 @@
 # Ursus Week 4 Live Session
 
-Welcome to a new week and the wonderful world of JavaScript. We went over various new concepts in JavaScript as well as some reinforcement of some concepts we have already learned.
+Welcome to Week 4 where we explore JavaScript functions. We went over functions and how to use them in our code and the benefits that they give us.
 
 **JavaScript Topics:**
 
-1. use `const` by default and upgrade to `let` as needed
-1. the difference between `=`, `==`, and `===`
-1. Three Types of Problems for Developers
-    1. Environment
-    1. Syntax
-    1. Logic
-1. arrays - 0 based index and how to access items in an array
-1. `array.length` - returns the total number of items in an array
-1. `for` i loop
-1. `while` loop
-1. `for` in loop - gives you index
-1. `for` of loop - gives you the item
+1. using `function`s
+    1. function declaration - much like a variable declaration this is where we inform JS that there is a function we are going to use
+    1. parameters (a.k.a. params) - defining values that will be passed to the function when called
+    1. arguments - the values that are passed to a function when the function is called, `doSomething('clean')`
+    1. `return` - allows a function to give a return some kind of value when a function  is called
+1. difference between a function declaration, `function doAllThings() {}`, and a function call, `doAllThings()`.
+1. hoisting
+1. scope
