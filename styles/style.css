@@ -22,3 +22,32 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.container {
+  padding: 10px 20px;
+}
+
+.blocks {
+  margin: 0 -5px;
+  font-size: 0;
+}
+
+.blocks > * {
+  display: inline-block;
+  padding: 0 5px 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.blocks_2up > * {
+  width: 50%;
+}
+
+.blocks_3up > * {
+  width: 33.333333%;
+}
+
+.blocks_4up > * {
+  width: 25%;
+}
